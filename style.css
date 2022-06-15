@@ -1,0 +1,148 @@
+h1{
+    text-align: center; 
+        }
+       
+
+        body{
+            margin-left: 15%;
+            margin-right: 15%;
+           /* background-color: lightblue;*/
+        }
+    
+       img.myName{
+        padding-left: 10%;
+       }
+
+       .text{padding: 8em;
+
+       }
+
+       
+       table, th, td {
+           border: 1px solid black;
+           width:20em;
+        } 
+
+        @media (min-width: 768px) {
+           .container {
+               display: flex;
+           }
+       }
+       
+       
+       .subject1{
+        border: 3px;
+        padding: 1em;
+        margin: 1em;
+       
+           
+       }
+
+       .subject2{
+        border: 3px;
+        padding: 1em;
+        margin: 1em;
+          
+       }
+
+       .subject3{
+        border: 3px;
+        padding: 1em;
+        margin: 1em;
+          
+       }
+
+       img {
+        align-content: center;
+        height: 250px;
+        width: 250px;
+        border-radius: 2.25em;
+        margin: auto;
+        display: block;
+        
+        }
+    .name{
+   border: 2px;
+        padding: 3em;
+        margin: 2em;
+        align-items: center;
+        text-align: center;
+       }
+       /*.pic{*/
+       /* align-content: center;*/
+    /*border: 2px;*/
+       /* padding: 0.5em;*/
+        /*margin: auto;*/
+        /*display: block;*/
+        /*background-color: darkgrey;*/
+     /*  }*/
+
+       @media (min-width: 768px) {
+           .name {
+               display: flex;
+           }
+       } 
+       .city{
+       border: 2px;
+        padding: 3em;
+        margin: 0,3em;
+
+       }
+       
+       
+        .phase1{
+            background-color: darkgray;
+            flex: 1;
+            border: 2px solid;
+            padding: 1em;
+           margin: 1em;
+            border-radius: 1em;
+            
+        }
+        .whichCity{
+            background-color: darkgray;
+            flex: 1;
+            border: 2px solid;
+            padding: 1em;
+           margin: 1em;
+            border-radius: 1em;
+            text-align: center;
+       }
+           
+        
+        .language{
+            background-color: darkgray;
+            flex: 1;
+            border: 2px solid;
+            padding: 3em;
+           margin: 1em;
+            border-radius: 1em;
+               
+        }
+       .container{
+        background-color: darkgray;
+            flex: 1;
+            border: 2px solid;
+            padding: 3em;
+           margin: 1em;
+            border-radius: 1em;
+               
+       }
+
+      
+
+       @media (min-width: 768px) {
+           .whichCity {
+               display: flex;
+           }
+       }   
+       @media (min-width: 768px) {
+           .phase1 {
+               display: flex;
+           }
+       }   
+
+       
+
+       
+   
