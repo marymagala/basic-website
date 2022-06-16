@@ -4,14 +4,19 @@ h1{
        
 
         body{
-            margin-left: 15%;
-            margin-right: 15%;
-           /* background-color: lightblue;*/
+            margin-left: 20%;
+            margin-right: 20%;
+           background-color: darkgray;
         }
     
-       img.myName{
-        padding-left: 10%;
-       }
+        img.myName{
+            height: 300px;
+            width: 280px;
+            margin: auto;
+            padding: 8em;
+            border-radius: 9em;
+         
+           }
 
        .text{padding: 8em;
 
@@ -20,7 +25,7 @@ h1{
        
        table, th, td {
            border: 1px solid black;
-           width:18em;
+           width:40em;
         } 
 
         @media (min-width: 768px) {
@@ -54,11 +59,12 @@ h1{
 
        img {
         align-content: center;
-        height: 230px;
-        width: 230px;
+        height: 250px;
+        width: 250px;
         border-radius: 2.25em;
         margin: auto;
         display: block;
+        
         
         }
     .name{
@@ -90,45 +96,7 @@ h1{
        }
        
        
-        .phase1{
-            background-color: darkgray;
-            flex: 1;
-            border: 2px solid;
-            padding: 1em;
-           margin: 1em;
-            border-radius: 1em;
-            
-        }
-        .whichCity{
-            background-color: darkgray;
-            flex: 1;
-            border: 2px solid;
-            padding: 1em;
-           margin: 1em;
-            border-radius: 1em;
-            text-align: center;
-       }
-           
-        
-        .language{
-            background-color: darkgray;
-            flex: 1;
-            border: 2px solid;
-            padding: 3em;
-           margin: 1em;
-            border-radius: 1em;
-               
-        }
-       .container{
-        background-color: darkgray;
-            flex: 1;
-            border: 2px solid;
-            padding: 3em;
-           margin: 1em;
-            border-radius: 1em;
-               
-       }
-
+       
       
 
        @media (min-width: 768px) {
